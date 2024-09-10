@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Custo de VM</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Custo de VM</h1>
+      <form id="vm-form">
+        <label for="ram">RAM (em GB):</label>
+        <input type="number" id="ram" name="ram" required />
+
+        <label for="vcpu">Núcleos de vCPU:</label>
+        <input type="number" id="vcpu" name="vcpu" required />
+
+        <label for="os">Sistema Operacional:</label>
+        <select id="os" name="os" required>
+          <option value="Linux">Linux</option>
+          <option value="Windows">Windows</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="error-not-found" style="display: none;"></p>
+      <div id="results" style="display: none;">
+        <div id="div-top-results">
+          <h2>Resultados</h2>
+          <p id="vm-preco-medio"></p>
+        </div>
+        <div id="div-vm-menor-preco"></div>
+        <div id="div-vm-maior-preco"></div>
+      </div>
+
+      <div id="menor-preco-container"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

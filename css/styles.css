@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#results p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#div-top-results {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#menor-preco-container {
+  margin-top: 20px;
+}
+
+#menor-preco-container h3 {
+  margin-bottom: 15px;
+}
+
+#error-not-found {
+  margin-top: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.todos-menor-preco {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.todos-menor-preco h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.todos-menor-preco p {
+  font-size: 16px;
+}
+
+#div-vm-menor-preco {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+#div-vm-menor-preco h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#div-vm-menor-preco p {
+  font-size: 16px;
+}
+
+#div-vm-menor-preco div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#div-vm-menor-preco div p {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #28a745;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#div-vm-maior-preco {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+#div-vm-maior-preco h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#div-vm-maior-preco p {
+  font-size: 16px;
+}
+
+#div-vm-maior-preco div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#div-vm-maior-preco div p {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #c71212;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
